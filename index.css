@@ -65,16 +65,16 @@ a:active {
 
 .btn-dark {
     color: whitesmoke;
-    background: #5f29a3;
+    background: #2175BF;
 }
 
 .btn-mid {
-    color: #5f29a3; 
+    color: #2175BF; 
     background: #f0e0ff; 
 }
 
 .btn-light {
-    color: #5f29a3; 
+    color: #2175BF; 
     background: whitesmoke;
 }
 
@@ -99,7 +99,7 @@ footer {
 
 header, 
 .section-two {
-    background-color: #5f29a3;
+    background-color: #2175BF;
 }
 
 .section-two {
@@ -117,6 +117,7 @@ header,
     display: block;
     max-width: 640px;
     margin: 0 auto 2em;
+    border-radius: 4.6px;
 }
 
 .section-two-image-container {
@@ -136,7 +137,7 @@ header,
 
 footer {
     text-align: center;
-    color: #5f29a3;
+    color: #2175BF;
 }
 
 /* ----- NAVIGATION ----- */
