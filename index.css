@@ -127,7 +127,7 @@ header,
     display: flex;
     flex-wrap: wrap;
     gap: 1em;
-    margin-bottom: 1.25em;
+    margin-bottom: 1.5em;
 }
 
 .feature-image {
@@ -163,6 +163,7 @@ ul {
 
 /* ----- MEDIA QUERIES ----- */
 
+/* @media (width <= 767px) */
 @media (max-width: 767px) {
     header {
         text-align: center;
@@ -177,6 +178,7 @@ ul {
     }  
 }
 
+/* @media (width >= 768px) */
 @media (min-width: 768px) {
     header,
     section,
@@ -192,6 +194,10 @@ ul {
     header .container {
         justify-content: space-between;
         align-items: center;
+    }
+
+    .section-two-image-container {
+        margin-bottom: 1.25em;
     }
     
     nav li {
