@@ -42,6 +42,13 @@ p {
     color: inherit;
 }
 
+.bottom h4 {
+    color: #343434;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 0;
+}
+
 /* ----- LINKS ----- */
 
 a {
@@ -85,6 +92,18 @@ a:active {
     color: #343434;
     background-color: #f3e885;
 }
+
+.bottom a {
+    color: #6989FA;
+    text-decoration: none;
+}
+
+.bottom a:hover,
+.bottom a:active,
+.bottom a:visited {
+    color: #2E5CB5;
+}
+
 
 /* ----- LAYOUT ----- */
 
@@ -141,8 +160,29 @@ header,
 
 footer {
     text-align: center;
-    color: #343434;
+    color: #02590F;
     font-weight: 500;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: start;
+    width: 100%;
+    margin: 0 auto 0 auto;
+    padding: 40px 0 30px 0;
+    gap: 60px;
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1em 0;
+}
+
+.attribution, .my-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 /* ----- NAVIGATION ----- */
