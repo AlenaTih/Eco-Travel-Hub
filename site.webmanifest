@@ -1,0 +1,12 @@
+{
+    "name": "Eco Travel Hub",
+    "short_name": "Eco Travel Hub",
+    "icons":
+        [
+            {"src": "android-chrome-192x192.png", "sizes": "192x192", "type": "image/x-icon"},
+            {"src": "android-chrome-512x512.png", "sizes": "512x512", "type": "image/x-icon"}
+        ],
+    "theme_color": "#EED6D3",
+    "background_color": "#EED6D3",
+    "display": "standalone"
+}
