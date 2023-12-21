@@ -82,7 +82,7 @@ a:active {
 
 .btn:hover, 
 .btn:active {
-    color: #2b238a;
+    color: #343434;
     background-color: #f3e885;
 }
 
@@ -139,7 +139,8 @@ header,
 
 footer {
     text-align: center;
-    color: #02590F;
+    color: #343434;
+    font-weight: 500;
 }
 
 /* ----- NAVIGATION ----- */
